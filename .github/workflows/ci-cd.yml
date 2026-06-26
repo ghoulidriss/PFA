@@ -130,7 +130,7 @@ jobs:
       matrix:
         service:
           - name: api-gateway
-            context: ./api-gateway
+            context: ecommerce-microservices/api-gateway
           - name: user-service
             context: ./user-service
           - name: product-service
